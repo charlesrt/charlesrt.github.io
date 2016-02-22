@@ -20,4 +20,3 @@ github_username:  charlesrt
 # Build settings
 markdown: kramdown
 permalink: /:year/:month/:title/
-paginate: 10

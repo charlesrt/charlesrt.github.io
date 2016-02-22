@@ -1,9 +1,14 @@
-<header class="site-header">
+<header class="site-header header-hero-image-bg">
 
-  <div class="wrapper">
 
-    <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
 
+  <div class="header-hero-image-gradient-overlay">
+  </div>
+
+  <div class="header-hero-image-overlay">
+    <a class="site-title" href="{{ site.baseurl }}/"><img class="header-site-logo " src="/img/site-logo.png" /></a>
+
+    <!--
     <nav class="site-nav">
       <a href="#" class="menu-icon">
         <svg viewBox="0 0 18 15">
@@ -21,7 +26,13 @@
         {% endfor %}
       </div>
     </nav>
-
+  -->
+    <div class="header-profile-conversation">
+      <img class="header-profile-image" src="/img/site-profile.jpg" />
+      <p class="header-profile-summary">Hi, I'm an interaction designer @DigitalDWP. Previously @HSBC, @firstdirect, @mandsbank.
+        <a href="mailto:{{ site.email }}">Get in touch!</a>
+      </p>
+    </div>
   </div>
 
 </header>

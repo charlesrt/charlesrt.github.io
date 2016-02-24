@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+
 @import "bower_components/inuit-defaults/settings.defaults";
 
 @import "bower_components/inuit-functions/tools.functions";
@@ -7,7 +9,7 @@
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
 // Our variables
-$base-font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -17,7 +19,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #ff448d;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -36,9 +38,19 @@ $on-laptop:        800px;
 //         padding-left: $spacing-unit / 2;
 //     }
 // }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
+@mixin media-query($on-palm) {
+    @media screen and (max-width: $on-palm) {
         @content;
+        .header-profile-image {
+          width: 48px !important;
+          height: 48px !important;
+        }
+        .header-profile-summary {
+          font-size: 22px !important;
+        }
+        .header-profile-contact, .header-profile-action {
+          margin: 5px !important;
+        }
     }
 }
 
@@ -50,7 +62,7 @@ $on-laptop:        800px;
 
 // Components
 .header-hero-image-bg {
-  background: url('https://unsplash.it/2560/1600?image=445') no-repeat;
+  background: url('https://source.unsplash.com/lZxKede1hW8') transparent center center no-repeat;
   background-size: cover;
 }
 .header-hero-image-gradient-overlay {
@@ -59,8 +71,8 @@ $on-laptop:        800px;
   position: absolute;
   z-index: 8;
   background: transparent;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.7) 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 30%, transparent 70%, rgba(0, 0, 0, 0.7) 100%)
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.7) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.7) 100%)
 }
 .header-hero-image-overlay {
   height: 100%;
@@ -72,29 +84,81 @@ $on-laptop:        800px;
   width: auto;
   height: 40px;
   margin: 20px;
-  opacity: 0.8;
+  opacity: .70;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header-site-logo {
+  width: auto;
+  height: 40px;
+  margin: 20px;
+  opacity: .70;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+.header-page-logo {
+  width: auto;
+  height: 40px;
+  margin: 20px 0;
+  opacity: .70;
 }
 .header-profile-conversation {
   position: absolute;
-  bottom: 0;
+  top: 0;
   margin: 20px;
 }
+
 .header-profile-image {
   width: 64px;
   height: 64px;
   border-radius: 64px;
+  margin: 0 auto;
+  text-align: center;
+  display: block;
 }
 .header-profile-summary {
-  background: rgba(255,255,255,0.98);
   width: auto;
-  max-width: 60%;
-  margin: 2% 0 0 2%;
-  padding: 1% 2%;
+  //max-width: 80%;
+  margin: 0 1% 0 1%;
+  padding: 0 1% 0 1%;
   border-radius: 16px;
-  color: #424242;
-  display: inline-block;
-  vertical-align: bottom;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  text-align: center;
+  //display: inline-block;
+  //vertical-align: top;
 }
+
+.header-profile-contact, .header-profile-action {
+  padding: 10px 20px;
+  margin: 10px 5px;
+  border: 1px solid rgba(255,255,255,0.3);
+  background: #ff448d;
+  border-radius: 30px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #fff !important;
+  text-decoration: none;
+  display: inline-block;
+}
+.header-profile-action {
+  background: #bce561;
+  color: rgba(0,0,0,.87)!important;
+}
+.header-profile-contact:hover, .header-profile-action:hover {
+  background: darken(#ff448d, 12%);
+  //background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.1) 0%, transparent 20%, transparent 80%, rgba(0, 0, 0, 0.1) 100%);
+  //background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, transparent 20%, transparent 80%, rgba(0, 0, 0, 0.1) 100%);
+  transition: all 300ms ease-in-out;
+  text-decoration: none;
+}
+.header-profile-action:hover {
+  background: darken(#bce561, 12%);
+}
+
 
 // Trumps
 .hidden {
@@ -102,6 +166,7 @@ $on-laptop:        800px;
 }
 .absolute-centering {
   position: absolute;
+  width: 80%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);

@@ -6,7 +6,7 @@
   </div>
 
   <div class="header-hero-image-overlay">
-    <a class="site-title" href="{{ site.baseurl }}/"><img class="header-site-logo " src="/img/site-logo.png" /></a>
+    <a class="site-title" href="{{ site.baseurl }}/"><img class="header-site-logo " src="/assets/site-logo.png" /></a>
 
     <!--
     <nav class="site-nav">
@@ -27,12 +27,19 @@
       </div>
     </nav>
   -->
-    <div class="header-profile-conversation">
-      <img class="header-profile-image" src="/img/site-profile.jpg" />
-      <p class="header-profile-summary">Hi, I'm an interaction designer @DigitalDWP. Previously @HSBC, @firstdirect, @mandsbank.
-        <a href="mailto:{{ site.email }}">Get in touch!</a>
+    <div class="absolute-centering">
+      <img class="header-profile-image" src="/assets/site-profile.jpg" />
+      <p class="header-profile-summary">Hi there, I'm Charles.<br>I am an interaction designer based in Leeds, currently making government digital services better.<br>
+        <a class="header-profile-contact" href="mailto:{{ site.email }}">Get in touch</a><a class="header-profile-action" href="#main">Tell me more</a>
       </p>
     </div>
+    <!--
+    <div class="absolute-centering">
+      <p>
+        <a class="header-profile-action" href="mailto:{{ site.email }}">Get in touch!</a>
+      </p>
+    </div>
+  -->
   </div>
 
 </header>

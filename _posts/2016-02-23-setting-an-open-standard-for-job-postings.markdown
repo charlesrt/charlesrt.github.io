@@ -56,10 +56,10 @@ It’s my **assumption** that this will benefit employers — through  bette
 These insights are not just from the Citizens Advice reports. The team I am working with have spoken to over 100 job-seekers across the country, about the wider challenges they face when looking for work. We've discovered that users need to know:
 
 * who the end employer is so they can research them before applying
-* what their responsibilities will be so they can access whether they are capable/suitable
+* what their responsibilities will be so they can assess whether they are capable/suitable
 * the specific location of the job so they know they can get to and from the job in a time and manner that fits with their lifestyle
 * the work pattern so they know it doesn’t clash with any existing commitments, e.g. childcare, current part-time work
-* the minimum rate of pay so they can determine whether they can afford to pay their mortgage/rent, bills etc
+* the minimum rate of pay so they can determine whether they can afford to pay their mortgage/rent, bills etc.
 
 Whilst extensive 1:1 qualitative research has been conducted with job-seekers, we have only spoken to a handful of employers. Until further validated, employer needs are just best assumptions at this time, which is OK.
 

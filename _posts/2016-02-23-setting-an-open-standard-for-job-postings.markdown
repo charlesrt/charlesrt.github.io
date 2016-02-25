@@ -9,7 +9,7 @@ categories: interaction design
 
 I’m currently working as a designer with a team looking at ways to improve how we help job-seekers find work and employers fill vacancies in their local job markets.
 
-![Understanding employer needs — Charles Reynolds-Talbot](/assets/2016-02-23-setting-the-open-standard-for-job-postings/user-journey-photo.jpg)
+![Understanding employer needs — Charles Reynolds-Talbot](/assets/2016-02-23-setting-an-open-standard-for-job-postings/user-journey-photo.jpg)
 
 > Understanding employer needs — Charles Reynolds-Talbot
 
@@ -21,7 +21,7 @@ Employers, in turn, suffer from the increased cost of spending too much time sif
 
 Citizens Advice agree — job adverts in today’s market are simply [failing job-seekers and employers](https://www.citizensadvice.org.uk/Global/CitizensAdvice/Work%20Publications/Job%20ads%20barometer.pdf). 
 
-![Citizens Advice high-level research findings — Citizens Advice](/assets/2016-02-23-setting-the-open-standard-for-job-postings/citizens-advice-1.jpg)
+![Citizens Advice high-level research findings — Citizens Advice](/assets/2016-02-23-setting-an-open-standard-for-job-postings/citizens-advice-1.jpg)
 
 > Citizens Advice high-level research findings — [Citizens Advice](https://www.citizensadvice.org.uk/Global/CitizensAdvice/Work%20Publications/Job%20ads%20barometer.pdf)
 
@@ -33,7 +33,7 @@ Employers don’t know what information to include, in what format. 
 
 Job-seekers struggle to easily see the information in the “wall of text” that’s important to them.
 
-![Lots of information about the company but no details about the role — Citizens Advice](/assets/2016-02-23-setting-the-open-standard-for-job-postings/citizens-advice-2.jpg)
+![Lots of information about the company but no details about the role — Citizens Advice](/assets/2016-02-23-setting-an-open-standard-for-job-postings/citizens-advice-2.jpg)
 
 > Lots of information about the company but no details about the role - [Citizens Advice](https://www.citizensadvice.org.uk/Global/CitizensAdvice/Work%20Publications/JobadvertsrecommendationsFINAL.pdf)
 
@@ -45,7 +45,7 @@ Government has a responsibility to support people into sustainable employment, s
 
 This open standard won’t just cover the [rules](https://www.asa.org.uk/News-resources/Hot-Topics/~/media/Files/ASA/Hot%20Topics/Employment%20opportunities%20-%20Hot%20topic.ashx) and [recommendations](https://www.citizensadvice.org.uk/Global/CitizensAdvice/Work%20Publications/JobadvertsrecommendationsFINAL.pdf) (which most job sites fall short of), but will be based on the **needs of its users**. It will ensure job-seekers have the key information they need to make an informed decision whether they’re suitable for a role, or a role is suitable for them. 
 
-![The recommended journey of a job advert in an employer/agency interaction — Citizens Advice](/assets/2016-02-23-setting-the-open-standard-for-job-postings/citizens-advice-3.jpg)
+![The recommended journey of a job advert in an employer/agency interaction — Citizens Advice](/assets/2016-02-23-setting-an-open-standard-for-job-postings/citizens-advice-3.jpg)
 
 > The recommended journey of a job advert in an employer/agency interaction - [Citizens Advice](https://www.citizensadvice.org.uk/Global/CitizensAdvice/Work%20Publications/JobadvertsrecommendationsFINAL.pdf)
 
@@ -67,7 +67,7 @@ Whilst extensive 1:1 qualitative research has been conducted with job-seekers, w
 
 I am kickstarting an open source schema that will standardise what a job post looks like — structure, not style — based on **user needs**. This skeleton is intended to be used as a boilerplate to encourage an iterative approach to the design and content of job postings — available for everyone to use.
 
-![Example of a structured job posting — Charles Reynolds-Talbot](/assets/2016-02-23-setting-the-open-standard-for-job-postings/example.jpg)
+![Example of a structured job posting — Charles Reynolds-Talbot](/assets/2016-02-23-setting-an-open-standard-for-job-postings/example.jpg)
 
 > Example of a structured job posting — Charles Reynolds-Talbot
 

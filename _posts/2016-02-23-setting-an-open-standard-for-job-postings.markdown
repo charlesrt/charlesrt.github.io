@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Setting the open standard for job postings"
+title:  "Setting an open standard for job postings"
 date:   2016-02-23 20:23:40 +0000
 categories: interaction design
 ---

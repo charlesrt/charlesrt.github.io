@@ -16,6 +16,7 @@ dl, dd, ol, ul, figure {
 body {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
     color: $text-color;
+    color: rgba($text-color, 0.87);
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
     -webkit-font-feature-settings: "kern" 1;
@@ -82,7 +83,9 @@ li {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-weight: $base-font-weight;
+    font-family: $header-font-family;
+    font-weight: $header-font-weight;
+    line-height: 1;
 }
 
 
@@ -104,6 +107,10 @@ a {
     }
 }
 
+p a {
+    text-decoration: underline;
+}
+
 
 
 /**
@@ -114,8 +121,7 @@ blockquote {
     border-left: 4px solid $grey-color-light;
     padding-left: $spacing-unit / 2;
     font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    letter-spacing: 0.5px;
 
     > :last-child {
         margin-bottom: 0;

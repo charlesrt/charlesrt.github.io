@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);*/
+@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic|Alegreya+Sans:400,400italic,800);
 
 @import "bower_components/inuit-defaults/settings.defaults";
 
@@ -9,17 +10,19 @@
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
 // Our variables
-$base-font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-family: "Alegreya Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   24px;
 $base-font-weight: 400;
-$small-font-size:  $base-font-size * 0.875;
+$header-font-family: "Alegreya Sans", serif;
+$header-font-weight: 800;
+$small-font-size:  20px;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #000000;
 $background-color: #fdfdfd;
-$brand-color:      #ff448d;
+$brand-color:      #4C6A92;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -46,7 +49,7 @@ $on-laptop:        800px;
           height: 48px !important;
         }
         .header-profile-summary {
-          font-size: 22px !important;
+          font-size: 54px !important;
         }
         .header-profile-contact, .header-profile-action {
           margin: 5px !important;
@@ -62,7 +65,9 @@ $on-laptop:        800px;
 
 // Components
 .header-hero-image-bg {
-  background: url('https://source.unsplash.com/lZxKede1hW8') transparent center center no-repeat;
+  /*background: url('https://source.unsplash.com/lZxKede1hW8') transparent center center no-repeat;*/
+  background-color: #4C6A92;
+  background-position: center center;
   background-size: cover;
 }
 .header-hero-image-gradient-overlay {
@@ -71,8 +76,11 @@ $on-laptop:        800px;
   position: absolute;
   z-index: 8;
   background: transparent;
-  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.7) 100%);
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.3) 40%, rgba(0, 0, 0, 0.3) 60%, rgba(0, 0, 0, 0.7) 100%)
+  -webkit-animation: 15s colors infinite;
+     -moz-animation: 15s colors infinite;
+          animation: 15s colors infinite;
+  background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.38) 100%);
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.38) 100%);
 }
 .header-hero-image-overlay {
   height: 100%;
@@ -86,7 +94,7 @@ $on-laptop:        800px;
   margin: 20px;
   opacity: .70;
   position: absolute;
-  bottom: 0;
+  top: 0;
   left: 0;
 }
 .header-site-logo {
@@ -111,9 +119,10 @@ $on-laptop:        800px;
 }
 
 .header-profile-image {
-  width: 64px;
-  height: 64px;
-  border-radius: 64px;
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  border: 2px solid #fff;
   margin: 0 auto;
   text-align: center;
   display: block;
@@ -125,13 +134,13 @@ $on-laptop:        800px;
   padding: 0 1% 0 1%;
   border-radius: 16px;
   color: #fff;
-  font-size: 32px;
-  font-weight: 300;
+  font-size: 112px;
+  font-weight: 800;
+  line-height: 1;
   text-align: center;
   //display: inline-block;
   //vertical-align: top;
 }
-
 .header-profile-contact, .header-profile-action {
   padding: 10px 20px;
   margin: 10px 5px;
@@ -172,3 +181,64 @@ $on-laptop:        800px;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+
+@-webkit-keyframes colors {
+            0% {
+                background-color: rgba(#7db9e8, 0.38);
+            }
+            20% {
+                background-color: rgba(#82c06b, 0.38);
+            }
+            40% {
+                background-color: rgba(#73bcc3, 0.38);
+            }
+            60% {
+                background-color: rgba(#e33d3d, 0.38);
+            }
+            80% {
+                background-color: rgba(#e48a70, 0.38);
+            }
+            100% {
+                background-color: rgba(#7db9e8, 0.38);
+            }
+        }
+        @-moz-keyframes colors {
+            0% {
+                background-color: rgba(#7db9e8, 0.38);
+            }
+            20% {
+                background-color: rgba(#82c06b, 0.38);
+            }
+            40% {
+                background-color: rgba(#73bcc3, 0.38);
+            }
+            60% {
+                background-color: rgba(#e33d3d, 0.38);
+            }
+            80% {
+                background-color: rgba(#e48a70, 0.38);
+            }
+            100% {
+                background-color: rgba(#7db9e8, 0.38);
+            }
+        }
+        @keyframes colors {
+            0% {
+                background-color: rgba(#7db9e8, 0.38);
+            }
+            20% {
+                background-color: rgba(#82c06b, 0.38);
+            }
+            40% {
+                background-color: rgba(#73bcc3, 0.38);
+            }
+            60% {
+                background-color: rgba(#e33d3d, 0.38);
+            }
+            80% {
+                background-color: rgba(#e48a70, 0.38);
+            }
+            100% {
+                background-color: rgba(#7db9e8, 0.38);
+            }
+        }

@@ -1,69 +1,77 @@
 ---
-layout: default
+layout: default-noheader
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Stories</h1>
+  <h1 class="post-title">
+    Hello
+  </h1>
+
+  <p>
+    I am an interaction designer based in Leeds, currently helping UK government design better digital services.
+  </p>
+
+  <h2 class="page-heading">Stories</h2>
 
   <ul class="post-list">
     {% for post in site.posts %}
       <li>
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+        <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
+        </h3>
       </li>
     {% endfor %}
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
-  <h1 class="page-heading">Things</h1>
+  <h2 class="page-heading">Things</h2>
 
 
   <ul class="post-list">
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="https://gist.github.com/charlesrt/75ab9768298cbd2466b7">Job posting standard</a>
-      </h2>
+      </h3>
       <p>An open standard for publishing job postings online.</p>
     </li>
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="https://itunes.apple.com/gb/app/first-direct-banking-on-the-go/id405905004?mt=8">first direct</a>
-      </h2>
+      </h3>
       <p>Banking on the go mobile app.</p>
     </li>
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="https://www.hsbc.fr/1/PA_esf-ca-app-content/content/mobile1_5/mobile/content/france/index.html">HSBC</a>
-      </h2>
+      </h3>
       <p>Mobile banking demo for France.</p>
     </li>
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="http://bank.marksandspencer.com/banking/my-account/">M&S Bank</a>
-      </h2>
+      </h3>
       <p>Adaptive design for internet banking.</p>
     </li>
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="http://lakefest.co.uk">Lakefest</a>
-      </h2>
+      </h3>
       <p>An awesome music festival. Running 2011-2016.</p>
     </li>
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="http://www.amilliproperty.com">Amilli Property</a>
-      </h2>
+      </h3>
       <p>Property lettings and management service.</p>
     </li>
     <li>
-      <h2>
+      <h3>
         <a class="post-link" href="http://www.croftfarmleisure.co.uk">Croft Farm Waterpark</a>
-      </h2>
+      </h3>
       <p>Activity, camping and leisure centre.</p>
     </li>
   </ul>

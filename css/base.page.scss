@@ -38,6 +38,10 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
+p {
+  margin-bottom: $spacing-unit;
+}
+
 
 
 /**
@@ -159,6 +163,27 @@ pre {
 
 
 /**
+ * Focus
+ */
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+
+a:focus {
+  background-color: $focus-color;
+  outline: 3px solid $focus-color;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: 3px solid $focus-color;
+}
+
+
+
+/**
  * Wrapper
  */
 .wrapper {
@@ -201,8 +226,8 @@ pre {
 
     > svg {
         display: inline-block;
-        width: 16px;
-        height: 16px;
+        width: 40px;
+        height: 40px;
         vertical-align: middle;
 
         path {

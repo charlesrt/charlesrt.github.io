@@ -1,5 +1,5 @@
-/*@import url(https://fonts.googleapis.com/css?family=Lato:400,100,300,700,900);*/
-@import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic|Alegreya+Sans:400,400italic,800);
+// @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic|Alegreya+Sans:400,400italic,800);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,800);
 
 @import "bower_components/inuit-defaults/settings.defaults";
 
@@ -10,10 +10,10 @@
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
 // Our variables
-$base-font-family: "Alegreya Sans", "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-family: "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 $base-font-size:   24px;
 $base-font-weight: 400;
-$header-font-family: "Alegreya Sans", serif;
+$header-font-family: "Alegreya Sans", sans-serif;
 $header-font-weight: 800;
 $small-font-size:  20px;
 $base-line-height: 1.5;
@@ -27,6 +27,8 @@ $brand-color:      #4C6A92;
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
+
+$focus-color:       #ffbf47;
 
 // Width of the content area
 $content-width:    800px;
@@ -64,13 +66,13 @@ $on-laptop:        800px;
 @import "objects.syntax-highlighting";
 
 // Components
-.header-hero-image-bg {
+.header__hero__image__underlay--bg {
   /*background: url('https://source.unsplash.com/lZxKede1hW8') transparent center center no-repeat;*/
   background-color: #4C6A92;
   background-position: center center;
   background-size: cover;
 }
-.header-hero-image-gradient-overlay {
+.header__hero__image__middlelay--gradient {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -82,7 +84,7 @@ $on-laptop:        800px;
   background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.38) 100%);
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.38) 100%);
 }
-.header-hero-image-overlay {
+.header__hero__image__overlay--content {
   height: 100%;
   width: 100%;
   position: absolute;
@@ -97,20 +99,11 @@ $on-laptop:        800px;
   top: 0;
   left: 0;
 }
-.header-site-logo {
-  width: auto;
-  height: 40px;
-  margin: 20px;
-  opacity: .70;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-}
 .header-page-logo {
   width: auto;
   height: 40px;
   margin: 20px 0;
-  opacity: .70;
+  // opacity: .70;
 }
 .header-profile-conversation {
   position: absolute;
@@ -123,7 +116,8 @@ $on-laptop:        800px;
   height: 80px;
   border-radius: 80px;
   border: 2px solid #fff;
-  margin: 0 auto;
+  padding: 2px;
+  margin: 0 auto $spacing-unit;
   text-align: center;
   display: block;
 }
@@ -137,7 +131,7 @@ $on-laptop:        800px;
   font-size: 112px;
   font-weight: 800;
   line-height: 1;
-  text-align: center;
+  text-align: left;
   //display: inline-block;
   //vertical-align: top;
 }
@@ -167,15 +161,28 @@ $on-laptop:        800px;
 .header-profile-action:hover {
   background: darken(#bce561, 12%);
 }
+.footer__profile__image {
+  border: 2px solid $grey-color-light;
+  border-radius: 80px;
+  height: 80px;
+  padding: 2px;
+  width: 80px;
+}
+
 
 
 // Trumps
 .hidden {
   display: none;
 }
+.vertical-centering {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
 .absolute-centering {
   position: absolute;
-  width: 80%;
   top: 50%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);

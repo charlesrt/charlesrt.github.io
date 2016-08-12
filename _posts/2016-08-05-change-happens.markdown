@@ -2,14 +2,22 @@
 layout: post
 title:  "Change happens"
 date:   2016-08-05 14:55:00 +0000
-categories: change
-image: change-photo.jpg
+categories: leadership, change, self improvement
+image: butterfly-photo.jpg
 ---
 
 ## Usually every day
 
-![A new sunrise through green grass](/assets/2016/08/change-happens/change-photo.jpg)
+![A new sunrise through green grass](/assets/2016/08/change-happens/butterfly-photo.jpg)
 
-Normally, we don't pay attention to change - we live busy lives. Occasionally, we allow our perceptions to determine a particular change as having a higher effect on us. Maybe it does, maybe it doesn't. That isn't what's important.
+Normally, we don’t pay attention to change — we live busy lives — and the changes taking place around us are not worthy of a second thought.
 
-The important thing, as with all change, is to adapt and evolve. And - if the opportunity arises, influence change positively.
+Occasionally, we allow our perceptions to determine a particular change as having a higher effect on us. That change could be work related; a project cancelled, close team members leaving, organisational change, starting a new job, or it could be personal; having a baby, or moving home. Sometimes that change is outside of our control, sometimes we’ve instigated it — that isn’t what’s important. The important thing is how we let that change effect us; our mood, our outlook and our work.
+
+We can’t always change change, and most of the time it’s futile to try and stop it. When change happens, we need to adapt and evolve. Don’t focus on the negatives or the known unknown, but — if the opportunity arises — do influence change positively. We can’t regret trying to make something better, we can only regret not trying. 
+
+We should embrace change and the new opportunities it may bring, while reflecting on our past decisions so that we learn for the future.
+
+After all, tomorrow is a new day.
+
+> if nothing ever changed, there’d be no butterflies

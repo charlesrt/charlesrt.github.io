@@ -2,13 +2,13 @@
 layout: post
 title:  "Change happens"
 date:   2016-08-05 14:55:00 +0000
-categories: leadership, change, self improvement
+categories: leadership, change, self improvement, life lessons
 image: butterfly-photo.jpg
 ---
 
 ## Usually every day
 
-![A new sunrise through green grass](/assets/2016/08/change-happens/butterfly-photo.jpg)
+![A butterfly on a leaf](/assets/2016/08/change-happens/butterfly-photo.jpg)
 
 Normally, we don’t pay attention to change — we live busy lives — and the changes taking place around us are not worthy of a second thought.
 

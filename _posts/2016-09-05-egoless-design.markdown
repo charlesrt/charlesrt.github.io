@@ -66,17 +66,21 @@ Right now, it seems like everyone is talking about patterns, but not everyone is
 
 Patterns are the collaborative design work we all do that make consistently repeatable solutions to common problems. Patterns should not be treated as regimented rules. 
 
-Consistent is about being adaptable, with recognisable similarities that are relevant to the situation.
+Being consistent is about being adaptable, with recognisable similarities that are relevant to the situation, whereas uniform is inflexible, not tailored and shoe horned.
 
-Uniform is inflexible, not tailored and shoe horned.
+Good patterns are,
 
-> Good patterns are a solution to a recurring design problem, such that you could use the solution many times and never use it in the same way twice.
+> a solution to a recurring design problem, such that you could use the solution many times and never use it in the same way twice. ---<cite>Modular Web Design, Nathan Curtis</cite>
 
-Patterns---like everything---may need to adapt and evolve to fit the context. They should iterate over time as we experiment and learning something new.
+When discussing the use of patterns we should do so with this in mind and not mandate their application in a particular fashion because we think we know best.
+
+Patterns---like everything---may need to adapt and evolve to fit the context. They should iterate over time as we experiment and learn something new.
 
 ## Skip to the end
 
 There are no bonus points for egos. We’re all working towards the same goal---we all want to solve the problem. It doesn’t matter what it looks like, or how it **feels**. It matters how it works; how people understand it and how people interact with it.
+
+Ask questions. Listen. Learn. Repeat.
 
 ---
 

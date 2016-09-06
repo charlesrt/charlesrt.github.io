@@ -80,10 +80,16 @@ There are no bonus points for egos. We’re all working towards the same goal—
 
 *As a bit of a footnote, I wasn’t sure what the title of this story should be. I played with a few options before settling on Egoless design, but at the end of the day it could just as easily have been any of these.*
 
-Objective design
+**Objective design**
+
 or
-Altruistic design
+
+**Altruistic design**
+
 or
-Principal design
+
+**Principal design**
+
 or simply,
-Good design.
+
+### Good design.

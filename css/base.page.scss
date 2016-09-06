@@ -24,6 +24,10 @@ body {
     -o-font-feature-settings: "kern" 1;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+
+    @include media-query($on-palm) {
+      font-size: $base-font-size - 4;
+   }
 }
 
 
@@ -38,7 +42,7 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-p {
+p, blockquote {
   margin-bottom: $spacing-unit;
 }
 
@@ -138,6 +142,28 @@ blockquote {
     }
 }
 
+
+/**
+ * Horizontal rule
+ */
+
+hr {
+  display: block;
+  border: 0;
+  text-align: center;
+  letter-spacing: .6em;
+  font-size: $base-font-size + 4;
+  margin-bottom: $spacing-unit;
+
+  &:before {
+    content: '...';
+    display: inline-block;
+    margin-left: .6em;
+    color: rgba(0, 0, 0, .6);
+    position: relative;
+    top: -30px;
+  }
+}
 
 
 /**

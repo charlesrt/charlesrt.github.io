@@ -45,6 +45,8 @@ Working in an environment like that has it’s own challenges when it comes to d
 
 So, when we work in an environment that not only budgets for user research, but commends it as the highest principal to adhere to, we shouldn’t take that for granted by thinking we know best. We should be better than that.
 
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Disappointing to see such a subjective opinion on marriage allowance. I thought we were better than that. Keep going James+team 👍 <a href="https://twitter.com/hashtag/govdesign?src=hash">#govdesign</a></p>&mdash; Charles RT (@charles_rt) <a href="https://twitter.com/charles_rt/status/707964380294545408">March 10, 2016</a></blockquote> <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 ## Why bang on about it now?
 
 Sadly it’s still happening — months later in a Slack chat as part of prep for a service assessment. The point of controversy this time was that some interactions and “visual treatment” were not the same as they are on other government services. But — that’s OK. That’s a question that should be asked as part of the assessment. 

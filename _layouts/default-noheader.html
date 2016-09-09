@@ -5,14 +5,19 @@
 
   <body>
 
-    <div id="main" class="page-content">
-      <div class="wrapper">
-        <a class="page-title" href="{{ site.baseurl }}/"><img class="header-page-logo " src="/assets/site-logo-colour.png" /></a>
-        {{ content }}
-      </div>
-    </div>
+      <input type="checkbox" id="mode" value="" checked>
+      <label for="mode">Dark mode</label>
 
-    {% include footer.html %}
+      <div id="main" class="page-content">
+
+        <div class="wrapper">
+          <a class="page-title" href="{{ site.baseurl }}/"><img class="header-page-logo " src="/assets/site-logo-colour.png" /></a>
+          {{ content }}
+        </div>
+
+        {% include footer.html %}
+
+      </div>
 
   </body>
 

@@ -9,6 +9,7 @@
 @import "bower_components/inuit-normalize/generic.normalize";
 @import "bower_components/inuit-box-sizing/generic.box-sizing";
 
+
 // Our variables
 $base-font-family: "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
 $base-font-size:   24px;
@@ -25,8 +26,8 @@ $background-color: #fdfdfd;
 $brand-color:      #4C6A92;
 
 $grey-color:       #595959;
-$grey-color-light: lighten($grey-color, 40%);
-$grey-color-dark:  darken($grey-color, 15%);
+$grey-color-light: lighten($grey-color, 32%);
+$grey-color-dark:  darken($grey-color, 16%);
 
 $focus-color:       #ffbf47;
 
@@ -64,6 +65,7 @@ $on-laptop:        800px;
 
 @import "objects.layout";
 @import "objects.syntax-highlighting";
+
 
 // Components
 .header__hero__image__underlay--bg {
@@ -170,7 +172,6 @@ $on-laptop:        800px;
 }
 
 
-
 // Trumps
 .hidden {
   display: none;
@@ -189,63 +190,105 @@ $on-laptop:        800px;
           transform: translate(-50%, -50%);
 }
 
+
+// Dark mode
+input#mode[type=checkbox] + label, input#mode[type=checkbox] {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}
+input#mode[type=checkbox] + label {
+  background: $focus-color;
+  border-top: 1px solid rgba($text-color, 0.18);
+  padding: 5px 0;
+  font-size: 0.8em;
+  font-weight: 700;
+}
+input#mode[type=checkbox] {
+  z-index: 2;
+  margin: 13px 10px;
+}
+input#mode[type=checkbox]:checked ~ div#main {
+   background-color: mix($brand-color, rgba($text-color, 0.87), 16%);
+   color: rgba($background-color, 0.7);
+
+   a {
+       color: lighten($brand-color, 16%);
+       text-decoration: none;
+
+       &:visited {
+           color: lighten($brand-color, 8%);
+       }
+
+       &:hover {
+           color: $background-color;
+           text-decoration: underline;
+       }
+   }
+
+}
+
+
+// Animations
 @-webkit-keyframes colors {
-            0% {
-                background-color: rgba(#7db9e8, 0.38);
-            }
-            20% {
-                background-color: rgba(#82c06b, 0.38);
-            }
-            40% {
-                background-color: rgba(#73bcc3, 0.38);
-            }
-            60% {
-                background-color: rgba(#e33d3d, 0.38);
-            }
-            80% {
-                background-color: rgba(#e48a70, 0.38);
-            }
-            100% {
-                background-color: rgba(#7db9e8, 0.38);
-            }
-        }
-        @-moz-keyframes colors {
-            0% {
-                background-color: rgba(#7db9e8, 0.38);
-            }
-            20% {
-                background-color: rgba(#82c06b, 0.38);
-            }
-            40% {
-                background-color: rgba(#73bcc3, 0.38);
-            }
-            60% {
-                background-color: rgba(#e33d3d, 0.38);
-            }
-            80% {
-                background-color: rgba(#e48a70, 0.38);
-            }
-            100% {
-                background-color: rgba(#7db9e8, 0.38);
-            }
-        }
-        @keyframes colors {
-            0% {
-                background-color: rgba(#7db9e8, 0.38);
-            }
-            20% {
-                background-color: rgba(#82c06b, 0.38);
-            }
-            40% {
-                background-color: rgba(#73bcc3, 0.38);
-            }
-            60% {
-                background-color: rgba(#e33d3d, 0.38);
-            }
-            80% {
-                background-color: rgba(#e48a70, 0.38);
-            }
-            100% {
-                background-color: rgba(#7db9e8, 0.38);
-            }
-        }
+  0% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+  20% {
+      background-color: rgba(#82c06b, 0.38);
+  }
+  40% {
+      background-color: rgba(#73bcc3, 0.38);
+  }
+  60% {
+      background-color: rgba(#e33d3d, 0.38);
+  }
+  80% {
+      background-color: rgba(#e48a70, 0.38);
+  }
+  100% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+}
+@-moz-keyframes colors {
+  0% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+  20% {
+      background-color: rgba(#82c06b, 0.38);
+  }
+  40% {
+      background-color: rgba(#73bcc3, 0.38);
+  }
+  60% {
+      background-color: rgba(#e33d3d, 0.38);
+  }
+  80% {
+      background-color: rgba(#e48a70, 0.38);
+  }
+  100% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+}
+@keyframes colors {
+  0% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+  20% {
+      background-color: rgba(#82c06b, 0.38);
+  }
+  40% {
+      background-color: rgba(#73bcc3, 0.38);
+  }
+  60% {
+      background-color: rgba(#e33d3d, 0.38);
+  }
+  80% {
+      background-color: rgba(#e48a70, 0.38);
+  }
+  100% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+}

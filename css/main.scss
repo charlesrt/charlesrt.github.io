@@ -202,13 +202,16 @@ input#mode[type=checkbox] + label, input#mode[type=checkbox] {
 input#mode[type=checkbox] + label {
   background: $focus-color;
   border-top: 1px solid rgba($text-color, 0.18);
+  color: mix($brand-color, rgba($text-color, 0.87), 16%);
   padding: 5px 0;
-  font-size: 0.8em;
   font-weight: 700;
 }
 input#mode[type=checkbox] {
   z-index: 2;
-  margin: 13px 10px;
+  margin: 16px 10px;
+  @include media-query($on-palm) {
+    margin: 13px 10px;
+  }
 }
 input#mode[type=checkbox]:checked ~ div#main {
    background-color: mix($brand-color, rgba($text-color, 0.87), 16%);
@@ -227,7 +230,12 @@ input#mode[type=checkbox]:checked ~ div#main {
            text-decoration: underline;
        }
    }
-
+   blockquote {
+     color: rgba($background-color, 0.7);
+   }
+   .post-meta {
+     color: rgba($background-color, 0.7);
+   }
 }
 
 

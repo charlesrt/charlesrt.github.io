@@ -271,3 +271,31 @@ button:focus {
         }
     }
 }
+
+div#main {
+   background-color: $background-color;
+   color: rgba($text-color, 0.87);
+   -webkit-transition: 300ms;
+   -moz-transition: 300ms;
+   -o-transition: 300ms;
+   transition: 300ms;
+
+   a {
+       color: $brand-color;
+
+       &:visited {
+           color: darken($brand-color, 8%);
+       }
+
+       &:hover {
+           color: $text-color;
+       }
+   }
+
+   blockquote {
+     color: $grey-color;
+   }
+   .post-meta {
+     color: $grey-color;
+   }
+}

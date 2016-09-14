@@ -167,6 +167,7 @@ $on-laptop:        800px;
   border: 2px solid $grey-color-light;
   border-radius: 80px;
   height: 80px;
+  margin: 0;
   padding: 2px;
   width: 80px;
 }
@@ -194,28 +195,87 @@ $on-laptop:        800px;
 // Dark mode
 input#mode[type=checkbox] + label, input#mode[type=checkbox] {
   position: fixed;
-  bottom: 0;
-  left: 0;
-  width: 100%;
+  bottom: 22px;
+  right: 22px;
+  width: 44px;
+  height: 44px;
+  border-radius: 22px;
   text-align: center;
 }
 input#mode[type=checkbox] + label {
-  background: $focus-color;
-  border-top: 1px solid rgba($text-color, 0.18);
-  color: mix($brand-color, rgba($text-color, 0.87), 16%);
-  padding: 5px 0;
-  font-weight: 700;
+  display: block;
+  cursor: pointer;
+  outline: none;
+  user-select: none;
 }
 input#mode[type=checkbox] {
-  z-index: 2;
-  margin: 16px 10px;
-  @include media-query($on-palm) {
-    margin: 13px 10px;
-  }
+  position: absolute;
+  margin-left: -9999px;
+  visibility: hidden;
+}
+input#mode[type=checkbox] + label:before,
+input#mode[type=checkbox] + label:after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border-radius: 22px;
+  padding-top: 8px;
+}
+input#mode[type=checkbox] + label:before {
+  background: mix($brand-color, rgba($text-color, 0.87), 16%);
+  content: url(/assets/icon-moon.svg);
+  -webkit-transition: -webkit-transform 300ms;
+  -moz-transition: -moz-transform 300ms;
+  -o-transition: -o-transform 300ms;
+  transition: transform 300ms;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+input#mode[type=checkbox] + label:after {
+  background: $focus-color;
+  content: url(/assets/icon-sun.svg);
+  -webkit-transition: -webkit-transform 300ms;
+  -moz-transition: -moz-transform 300ms;
+  -o-transition: -o-transform 300ms;
+  transition: transform 300ms;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+input#mode[type=checkbox]:checked + label:before {
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+input#mode[type=checkbox]:checked + label:after {
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  -o-transform: rotateY(0);
+  transform: rotateY(0);
 }
 input#mode[type=checkbox]:checked ~ div#main {
    background-color: mix($brand-color, rgba($text-color, 0.87), 16%);
    color: rgba($background-color, 0.7);
+   -webkit-transition: 300ms;
+   -moz-transition: 300ms;
+   -o-transition: 300ms;
+   transition: 300ms;
 
    a {
        color: lighten($brand-color, 16%);

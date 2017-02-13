@@ -11,7 +11,7 @@ collections:
 email: hello@charlesrt.co.uk
 description: Interaction designer based in Leeds, currently making government digital
   services better.
-baseurl: ''
+baseurl: 
 url: http://charlesrt.co.uk
 twitter_username: charles_rt
 github_username: charlesrt

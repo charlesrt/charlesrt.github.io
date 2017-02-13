@@ -1,8 +1,14 @@
 ---
+title: Change happens
+date: 2016-08-05 14:55:00 Z
+categories:
+- leadership,
+- change,
+- self
+- improvement,
+- life
+- lessons
 layout: post
-title:  "Change happens"
-date:   2016-08-05 14:55:00 +0000
-categories: leadership, change, self improvement, life lessons
 image: butterfly-photo.jpg
 ---
 

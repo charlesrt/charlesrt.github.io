@@ -1,8 +1,10 @@
 ---
+title: Setting an open standard for job postings
+date: 2016-02-23 20:23:40 Z
+categories:
+- interaction
+- design
 layout: post
-title:  "Setting an open standard for job postings"
-date:   2016-02-23 20:23:40 +0000
-categories: interaction design
 image: user-journey-photo.jpg
 ---
 

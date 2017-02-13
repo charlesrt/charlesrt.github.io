@@ -1,8 +1,14 @@
 ---
+title: Egoless design
+date: 2016-09-06 12:30:00 Z
+categories:
+- Design,
+- UX,
+- Product
+- Ego,
+- Design
+- Patterns
 layout: post
-title:  "Egoless design"
-date:   2016-09-06 12:30:00 +0000
-categories: Design, UX, Product Design, Ego, Design Patterns
 image: egoless-design.png
 ---
 

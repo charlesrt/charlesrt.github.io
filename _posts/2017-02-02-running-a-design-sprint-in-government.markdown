@@ -9,7 +9,7 @@ tags:
 - Product Design
 ---
 
-## In a week the team framed the problem and prototyped a solution to test their assumptions with real users.
+In a week the team framed the problem and prototyped a solution to test their assumptions with real users.
 
 **I’m a senior interaction designer working with a multi-disciplinary team to help people prove things to government using APIs.**
 

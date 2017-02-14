@@ -47,6 +47,8 @@ We invited a couple of experts along to join us. They are the ones that work wit
 
 We also agreed that we would continue to attend the daily stand-up with the rest of the team, not only to make sure we were there to answer any questions, but also to update everyone on how the design sprint was going.
 
+![The team framing the problem](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-monday.jpg)
+
 ## Monday
 
 We framed the problem, setting a long-term goal and noting our biggest assumptions and questions down.
@@ -57,7 +59,7 @@ This inverted approach meant that instead of picking a target moment in a ideali
 
 It felt like a long day and I wasn’t sure that everyone was sold on the process [yet]. People had already questioned the value before we started and Monday’s process didn’t help. Whilst it’s an important day, it’s also a slow day that involved covering a lot of old ground. This was made harder by people from our wider agile team dropping in to observe from time-to-time, which meant more recapping. However, we got there and we were ready to start solving our target problem in the morning.
 
-![The team framing the problem](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-monday.jpg)
+![The team sketching](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-tuesday.jpg)
 
 ## Tuesday
 
@@ -71,7 +73,7 @@ At the end of Tuesday I held an impromptu retrospective. This was mostly to damp
  
 As usual, I needn’t have worried — the team were positive about the fresh approach to idea generation, the pace we were moving at and the way we were working together. The excessive recapping from the day before was rightly raised and luckily no-one had dropped in today to observe. It was also suggested that we start the remaining days with a YouTube video by Jake Knapp and John Zeratsky who wrote the Sprint book.
 
-![The team sketching](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-tuesday.jpg)
+![Our ideas on the wall](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-wednesday.jpg)
 
 ## Wednesday
 
@@ -81,7 +83,7 @@ I could clearly see how the teams engagement had changed since Monday. Gone were
 
 We made great pace, deciding on our best ideas and creating an end-to-end storyboard that we were ready to prototype.
 
-![Our ideas on the wall](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-wednesday.jpg)
+![Our prototype](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-thursday.jpg)
 
 ## Thursday
 
@@ -89,7 +91,7 @@ We were spoilt — we had a front-end developer on the sprint team, with acc
 
 Building a code-rich prototype didn’t mean the rest of the team were excluded from the day. Everyone played their part; building dummy data sets, mocking up paper artefacts, defining different scenarios. The whole team came together to create a situation that was as close to the real world as possible. This would enrich the reality of the observations we would make during testing on our final day of the week.
 
-![Our prototype](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-thursday.jpg)
+![The team at the end of our design sprint](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-friday.jpg)
 
 ## Friday
 
@@ -108,8 +110,6 @@ We also had a bit of time over lunch to make a couple of tweaks to the prototype
 The afternoon sessions went much smoother and we affinity sorted all of our notes at the end of the day.
 
 That was it — in one week we had framed the problem, prototyped a coded solution, tested it with real users and got rich qualitative feedback we could act upon. Phew!
-
-![The team at the end of our design sprint](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-friday.jpg)
 
 ## What happened next
 

@@ -9,8 +9,8 @@ categories:
 - Product Design
 layout: post
 image: design-sprint-featured.jpg
-excerpt: In a week the team framed the problem and prototyped a solution to test their assumptions with real users.
-
+excerpt: In a week the team framed the problem and prototyped a solution to test their
+  assumptions with real users.
 ---
 
 **In a week the team framed the problem and prototyped a solution to test their assumptions with real users.**

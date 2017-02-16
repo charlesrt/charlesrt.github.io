@@ -10,7 +10,8 @@ categories:
 - lessons
 layout: post
 image: butterfly-photo.jpg
-excerpt: Normally, we don’t pay attention to change — we live busy lives — and the changes taking place around us are not worthy of a second thought.
+excerpt: Normally, we don’t pay attention to change — we live busy lives — and the
+  changes taking place around us are not worthy of a second thought.
 ---
 
 ## Usually every day

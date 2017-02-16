@@ -5,15 +5,17 @@
 
   <body>
 
-      <input type="checkbox" id="mode" value="" checked>
+      <input type="checkbox" id="mode" value="">
       <label for="mode"></label>
 
       <div id="main" class="page-content">
 
-        <div class="wrapper">
-          <a class="page-title" href="{{ site.baseurl }}/"><img class="header-page-logo " src="/assets/site-logo-colour.png" /></a>
-          {{ content }}
+        <div class="page-header">
+          <div class="wrapper">
+            <a class="page-title" href="{{ site.baseurl }}/"><img class="header-page-logo " src="/assets/site-logo-colour.png" /></a>
+          </div>
         </div>
+          {{ content }}
 
         {% include footer.html %}
 

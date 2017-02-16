@@ -1,13 +1,16 @@
+---
+---
+
 // @import url(https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic|Alegreya+Sans:400,400italic,800);
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,800);
 
-@import "bower_components/inuit-defaults/settings.defaults";
+@import "settings.defaults";
 
-@import "bower_components/inuit-functions/tools.functions";
-@import "bower_components/inuit-mixins/tools.mixins";
+@import "tools.functions";
+@import "tools.mixins";
 
-@import "bower_components/inuit-normalize/generic.normalize";
-@import "bower_components/inuit-box-sizing/generic.box-sizing";
+@import "generic.normalize";
+@import "generic.box-sizing";
 
 
 // Our variables
@@ -60,14 +63,22 @@ $on-laptop:        800px;
     }
 }
 
-@import "bower_components/inuit-page/base.page";
 @import "base.page";
 
 @import "objects.layout";
-@import "objects.syntax-highlighting";
-
 
 // Components
+.page-header {
+  background: #292E35;
+  padding-top: $spacing-unit;
+}
+.post-header {
+  color: rgba($background-color, 0.7);
+}
+.header-skew{
+    @include skew-edge($pos-btm: bottomleft, $skew-btm: 1.6deg, $background: #292E35);
+    margin-bottom: 60px;
+}
 .header__hero__image__underlay--bg {
   /*background: url('https://source.unsplash.com/lZxKede1hW8') transparent center center no-repeat;*/
   background-color: #4C6A92;
@@ -296,6 +307,12 @@ input#mode[type=checkbox]:checked ~ div#main {
    .post-meta {
      color: rgba($background-color, 0.7);
    }
+
+   .header-skew{
+       @include skew-edge($pos-btm: bottomleft, $skew-btm: 1.6deg, $background: #292E35, $border: rgba($background-color, 0.7));
+       margin-bottom: 60px;
+   }
+
 }
 
 

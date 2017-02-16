@@ -1,12 +1,16 @@
 ---
 title: Running a design sprint in government
 date: 2017-02-02 23:00:00 Z
-tags:
+categories:
 - Design sprint
 - Design
 - Government
 - Design Thinking
 - Product Design
+layout: post
+image: design-sprint-featured.jpg
+excerpt: In a week the team framed the problem and prototyped a solution to test their assumptions with real users.
+
 ---
 
 **In a week the team framed the problem and prototyped a solution to test their assumptions with real users.**
@@ -69,8 +73,8 @@ The process helps massage people’s confidence, as in contrast to Monday, Tuesd
 
 I didn’t need to worry as everyone was more than happy to get involved. It is a joyous feeling to see the team embrace design in this way.
 
-At the end of Tuesday I held an impromptu retrospective. This was mostly to dampen my own insecurities that people were still pessimistic of the process. It was also a great opportunity to suggest anything that could be done differently. 
- 
+At the end of Tuesday I held an impromptu retrospective. This was mostly to dampen my own insecurities that people were still pessimistic of the process. It was also a great opportunity to suggest anything that could be done differently.
+
 As usual, I needn’t have worried — the team were positive about the fresh approach to idea generation, the pace we were moving at and the way we were working together. The excessive recapping from the day before was rightly raised and luckily no-one had dropped in today to observe. It was also suggested that we start the remaining days with a YouTube video by Jake Knapp and John Zeratsky who wrote the Sprint book.
 
 ![Our ideas on the wall](/assets/2017/02/running-a-design-sprint-in-government/design-sprint-wednesday.jpg)

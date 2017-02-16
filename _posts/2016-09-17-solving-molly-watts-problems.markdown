@@ -8,7 +8,7 @@ categories:
 - Accessibility,
 - Inclusion
 layout: post
-image: 
+image:
 ---
 
 Molly Watt has [Usher Syndrome](http://www.molly-watt-trust.org). 

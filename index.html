@@ -1,12 +1,9 @@
 ---
-layout: default-noheader
+layout: page
+title: Hello
 ---
 
 <div class="home">
-
-  <h1 class="post-title">
-    Hello
-  </h1>
 
   <p>
     I am an interaction designer based in Leeds, currently helping UK government design better digital services.
@@ -22,6 +19,7 @@ layout: default-noheader
         <h3>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
+        {{ post.excerpt }}
       </li>
     {% endfor %}
   </ul>

@@ -6,6 +6,7 @@ categories:
 - design
 layout: post
 image: user-journey-photo.jpg
+excerpt: Job-seekers and employers need a better experience.
 ---
 
 ## Job-seekers and employers need a better experience

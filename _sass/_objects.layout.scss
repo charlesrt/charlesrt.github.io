@@ -169,7 +169,8 @@
  * Page content
  */
 .page-content {
-    padding: $spacing-unit 0;
+    // padding: $spacing-unit 0;
+    padding: 0;
 }
 
 .page-heading {
@@ -189,6 +190,7 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    color: rgba($background-color, 0.7);
 }
 
 .post-link {

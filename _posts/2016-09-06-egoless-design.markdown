@@ -10,6 +10,7 @@ categories:
 - Patterns
 layout: post
 image: egoless-design.png
+excerpt: Back in March, I attended Cross Government Design Meeting.
 ---
 
 ![A light circle on a dark background](/assets/2016/09/egoless-design/egoless-design.png)

@@ -4,12 +4,20 @@ layout: default-noheader
 
 <article class="post">
 
-  <header class="post-header">
-    <h1 class="post-title">{{ page.title }}</h1>
-  </header>
+  <div class="header-skew">
+    <div class="wrapper">
+      <header class="post-header">
+        <h1 class="post-title">{{ page.title }}</h1>
+      </header>
+    </div>
+  </div>
+  
+  <div class="wrapper">
 
-  <div class="post-content">
-    {{ content }}
+    <div class="post-content">
+      {{ content }}
+    </div>
+
   </div>
 
 </article>

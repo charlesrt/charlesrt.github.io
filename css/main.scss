@@ -208,9 +208,9 @@ input#mode[type=checkbox] + label, input#mode[type=checkbox] {
   position: fixed;
   bottom: 22px;
   right: 22px;
-  width: 44px;
-  height: 44px;
-  border-radius: 22px;
+  width: 66px;
+  height: 66px;
+  border-radius: 33px;
   text-align: center;
 }
 input#mode[type=checkbox] + label {
@@ -232,8 +232,8 @@ input#mode[type=checkbox] + label:after {
   left: 0;
   bottom: 0;
   right: 0;
-  border-radius: 22px;
-  padding-top: 8px;
+  border-radius: 33px;
+  padding-top: 19px;
 }
 input#mode[type=checkbox] + label:before {
   background: mix($brand-color, rgba($text-color, 0.87), 16%);

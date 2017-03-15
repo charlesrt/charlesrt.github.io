@@ -3,15 +3,18 @@ title: Solving Molly Watt’s problems
 date: 2016-09-17 21:00:00 Z
 categories:
 - Usher
-- Syndrome,
-- Design,
-- Accessibility,
+- Syndrome
+- Design
+- Accessibility
 - Inclusion
 layout: post
-image: 
+image: molly-watt.png
+excerpt: Molly Watt has Usher Syndrome; born deaf and at the age of 12 began to lose her sight through retinitis pigmentosa, leaving her registered blind at 14.
 ---
 
 Molly Watt has [Usher Syndrome](http://www.molly-watt-trust.org). 
+
+![A photo of Molly Watt](/assets/2016/09/solving-molly-watts-problems/molly-watt.png)
 
 Molly was born deaf and at the age of 12 began to lose her sight through retinitis pigmentosa, leaving her registered blind at 14. Today Molly hears using ReSound hearing aids and sees with the remaining 5--degree vision she has in one eye. Molly uses technology as a gateway to her independence and [raises awareness of her condition](http://www.mollywatt.com) through keynote speaking and consultation.
 

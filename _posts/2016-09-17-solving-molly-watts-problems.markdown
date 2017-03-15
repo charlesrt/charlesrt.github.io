@@ -9,7 +9,8 @@ categories:
 - Inclusion
 layout: post
 image: molly-watt.png
-excerpt: Molly Watt has Usher Syndrome; born deaf and at the age of 12 began to lose her sight through retinitis pigmentosa, leaving her registered blind at 14.
+excerpt: Molly Watt has Usher Syndrome; born deaf and at the age of 12 began to lose
+  her sight through retinitis pigmentosa, leaving her registered blind at 14.
 ---
 
 Molly Watt has [Usher Syndrome](http://www.molly-watt-trust.org). 

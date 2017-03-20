@@ -9,8 +9,7 @@ categories:
 - Government
 layout: post
 image: egoless-design.png
-excerpt: When we review design we should not make statements or pass comments, we
-  should ask questions to learn more.
+excerpt: When we review design we should not make statements or pass comments, we should ask questions to learn more.
 ---
 
 ## Diving too deep

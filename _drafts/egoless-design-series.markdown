@@ -1,4 +1,6 @@
 ---
+title: Egoless Design Series
+date: 2017-03-20 09:09:46.086000000 Z
 ---
 
 # Egoless design series

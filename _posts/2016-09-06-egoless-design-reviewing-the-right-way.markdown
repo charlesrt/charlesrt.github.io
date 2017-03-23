@@ -6,22 +6,16 @@ categories:
 - Design Process
 - UX
 - Criticism
-- Government
+- Presentations
 layout: post
 image: egoless-design.png
 excerpt: When we review design we should not make statements or pass comments, we
   should ask questions to learn more.
 ---
 
-## Diving too deep
-
-In government we have regular design meetings; which are great events for designers from different departments to get together in person, learn more about what else is going on and feel part of a growing community. Often on the agenda is an opportunity to get a deep dive into a service that another department is working on.
-
-Deep dives benefit both sides; the audience gets a chance to see how another team has used design to solve a problem, the presenters get to have many fresh eyes review the thing they’ve made. It’s a space where everyone can learn, if it’s done the right way.
+_I was halfway through a deep dive at one of these events. I became uncomfortable. I was nervous. I was hot. I started breathing heavily. My heart started racing. But — I was not presenting. I was in the audience. An audience that was not doing it the right way. An audience that was criticising._
 
 ![An illustration of a head in empty space](/assets/2016/09/egoless-design-reviewing-the-right-way/egoless-design.png)
-
-_I was halfway through a deep dive at one of these events. I became uncomfortable. I was nervous. I was hot. I started breathing heavily. My heart started racing. But — I was not presenting. I was in the audience. An audience that was not doing it the right way. An audience that was criticising._
 
 Nobody benefits from criticism.
 

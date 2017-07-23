@@ -1,42 +1,40 @@
-/*!
- * inuitcss, by @csswizardry
- *
- * github.com/inuitcss | inuitcss.com
- */
 ///*------------------------------------*\
 //    #DEFAULTS
 //\*------------------------------------*/
 
-// These variables are inuitcss’ defaults; they should not be modified or
-// adjusted directly; you should predefine the variables in your own project.
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,400italic,800);
 
+$base-font-family: "Avenir Next", Avenir, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
+$base-font-weight: 400;
+$base-font-size:   24px;
+$base-line-height: 36px;
+$small-font-size:  20px;
 
+$header-font-family: "Alegreya Sans", sans-serif;
+$header-font-weight: 800;
 
+$spacing-unit:     round($base-line-height) !default;
 
+$spacing-unit-factor-tiny:   round($spacing-unit * 0.25) !default;
+$spacing-unit-factor-small:  round($spacing-unit * 0.5)  !default;
+$spacing-unit-factor-large:  round($spacing-unit * 2)    !default;
+$spacing-unit-factor-huge:   round($spacing-unit * 4)    !default;
 
-// High-level base settings.
-$inuit-base-font-size:          16px !default;
-$inuit-base-line-height:        24px !default;
-$inuit-base-text-color:         #333 !default;
-$inuit-base-background-color:   #fff !default;
+$background-color: #fdfdfd;
+$text-color:       #000000;
 
+$brand-color:      #4C6A92;
 
+$dark-color:       #292E35;
 
+$grey-color:       #595959;
+$grey-color-light: lighten($grey-color, 32%);
+$grey-color-dark:  darken($grey-color, 16%);
 
+$focus-color:       #ffbf47;
 
-// Namespace.
-//
-// Would you like inuitcss’ classes to be prepended with a namespace? If so,
-// define it here.
-$inuit-namespace:               null !default;
+// Width of the content area
+$content-width:    800px;
 
-
-
-
-
-// These variables are framework variables, sourced from variables defined
-// above. Feel free to use these variables throughout your project, but do not
-// modify or reassign them.
-$inuit-base-spacing-unit:           $inuit-base-line-height;
-$inuit-base-spacing-unit--small:    round($inuit-base-spacing-unit / 2);
-$inuit-base-spacing-unit--large:    round($inuit-base-spacing-unit * 2);
+$on-palm:          600px;
+$on-laptop:        800px;

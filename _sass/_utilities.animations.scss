@@ -1,0 +1,64 @@
+///*------------------------------------*\
+//    #ANIMATIONS
+//\*------------------------------------*/
+
+@-webkit-keyframes colors {
+  0% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+  20% {
+      background-color: rgba(#82c06b, 0.38);
+  }
+  40% {
+      background-color: rgba(#73bcc3, 0.38);
+  }
+  60% {
+      background-color: rgba(#e33d3d, 0.38);
+  }
+  80% {
+      background-color: rgba(#e48a70, 0.38);
+  }
+  100% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+}
+@-moz-keyframes colors {
+  0% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+  20% {
+      background-color: rgba(#82c06b, 0.38);
+  }
+  40% {
+      background-color: rgba(#73bcc3, 0.38);
+  }
+  60% {
+      background-color: rgba(#e33d3d, 0.38);
+  }
+  80% {
+      background-color: rgba(#e48a70, 0.38);
+  }
+  100% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+}
+@keyframes colors {
+  0% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+  20% {
+      background-color: rgba(#82c06b, 0.38);
+  }
+  40% {
+      background-color: rgba(#73bcc3, 0.38);
+  }
+  60% {
+      background-color: rgba(#e33d3d, 0.38);
+  }
+  80% {
+      background-color: rgba(#e48a70, 0.38);
+  }
+  100% {
+      background-color: rgba(#7db9e8, 0.38);
+  }
+}

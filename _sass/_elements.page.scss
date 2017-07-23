@@ -1,3 +1,7 @@
+///*------------------------------------*\
+//    #PAGE ELEMENTS
+//\*------------------------------------*/
+
 /**
  * Reset some basic elements
  */
@@ -7,12 +11,6 @@ dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
-
-
-
-/**
- * Basic styling
- */
 
 /**
 * High-, page-level styling.
@@ -27,58 +25,50 @@ dl, dd, ol, ul, figure {
 * 4. Prevent certain mobile browsers from automatically zooming fonts.
 * 5. Fonts on OSX will look more consistent with other systems that do not
 *    render text using sub-pixel anti-aliasing.
+* 6. Enable font kerning in CSS.
 */
 html {
-   font-size: ($inuit-base-font-size / 16px) * 1em; /* [1] */
-   line-height: $inuit-base-line-height / $inuit-base-font-size; /* [1] */
-   background-color: $inuit-base-background-color;
-   color: $inuit-base-text-color;
-   overflow-y: scroll; /* [2] */
-   min-height: 100%; /* [3] */
-   -webkit-text-size-adjust: 100%; /* [4] */
-       -ms-text-size-adjust: 100%; /* [4] */
-   -moz-osx-font-smoothing: grayscale; /* [5] */
-    -webkit-font-smoothing: antialiased; /* [5] */
+  font-size: ($base-font-size / 16px) * 1em; /* [1] */
+  line-height: $base-line-height / $base-font-size; /* [1] */
+  overflow-y: scroll; /* [2] */
+  min-height: 100%; /* [3] */
+  -webkit-text-size-adjust: 100%; /* [4] */
+  -ms-text-size-adjust: 100%; /* [4] */
+  -moz-osx-font-smoothing: grayscale; /* [5] */
+  -webkit-font-smoothing: antialiased; /* [5] */
+  text-rendering: optimizeLegibility; /* [6] */
+  -webkit-font-feature-settings: "kern" 1; /* [6] */
+  -moz-font-feature-settings: "kern" 1; /* [6] */
+  -o-font-feature-settings: "kern" 1; /* [6] */
+  font-feature-settings: "kern" 1; /* [6] */
+  font-kerning: normal; /* [6] */
 }
 
 body {
-    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-    color: $text-color;
-    color: rgba($text-color, 0.87);
-    background-color: $background-color;
-    border-top: 2px solid $brand-color;
-    -webkit-text-size-adjust: 100%;
-    -webkit-font-feature-settings: "kern" 1;
-    -moz-font-feature-settings: "kern" 1;
-    -o-font-feature-settings: "kern" 1;
-    font-feature-settings: "kern" 1;
-    font-kerning: normal;
+  font-family: $base-font-family;
+  color: $text-color;
+  color: rgba($text-color, 0.87);
+  background-color: $background-color;
+  border-top: 2px solid $brand-color;
 
-    @include media-query($on-palm) {
-      font-size: $base-font-size - 4;
-   }
+  @include media-query($on-palm) {
+    font-size: ($small-font-size / 16px) * 1em;
+  }
 }
-
-
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
+ul, ol, dl, figure, iframe,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit-factor-small;
 }
 
-p, blockquote {
+p, blockquote, iframe {
   margin-bottom: $spacing-unit;
 }
-
-iframe {
-  margin-bottom: $spacing-unit !important;
-}
-
 
 /**
  * Images
@@ -89,12 +79,10 @@ img {
 
     @include media-query($on-palm) {
       max-width: calc(100% + #{$spacing-unit});
-      margin-left: $spacing-unit / -2;
-      margin-right: $spacing-unit / -2;
+      margin-left: -$spacing-unit-factor-small;
+      margin-right: -$spacing-unit-factor-small;
    }
 }
-
-
 
 /**
  * Figures
@@ -106,8 +94,6 @@ figure > img {
 figcaption {
     font-size: $small-font-size;
 }
-
-
 
 /**
  * Lists
@@ -123,8 +109,6 @@ li {
     }
 }
 
-
-
 /**
  * Headings
  */
@@ -133,8 +117,6 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: $header-font-weight;
     line-height: 1;
 }
-
-
 
 /**
  * Links
@@ -153,11 +135,12 @@ a {
     }
 }
 
+/**
+* Inline paragraph links mainain their underline
+*/
 p a {
     text-decoration: underline;
 }
-
-
 
 /**
  * Blockquotes
@@ -165,15 +148,14 @@ p a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
+    padding-left: $spacing-unit-factor-small;
+    font-size: $small-font-size;
     letter-spacing: 0.5px;
 
     > :last-child {
         margin-bottom: 0;
     }
 }
-
 
 /**
  * Horizontal rule
@@ -193,20 +175,19 @@ hr {
     margin-left: .6em;
     color: rgba(0, 0, 0, .6);
     position: relative;
-    top: -30px;
+    top: -$spacing-unit;
   }
 }
-
 
 /**
  * Code formatting
  */
 pre,
 code {
-    font-size: 15px;
+    font-size: $small-font-size;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
+    background-color: $background-color;
 }
 
 code {
@@ -223,8 +204,6 @@ pre {
         padding-left: 0;
     }
 }
-
-
 
 /**
  * Focus
@@ -243,92 +222,4 @@ textarea:focus,
 select:focus,
 button:focus {
   outline: 3px solid $focus-color;
-}
-
-
-
-/**
- * Wrapper
- */
-.wrapper {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    margin-right: auto;
-    margin-left: auto;
-    padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
-    @extend %clearfix;
-
-    @include media-query($on-laptop) {
-        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
-        max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-        padding-right: $spacing-unit / 2;
-        padding-left: $spacing-unit / 2;
-    }
-}
-
-
-
-/**
- * Clearfix
- */
-%clearfix {
-
-    &:after {
-        content: "";
-        display: table;
-        clear: both;
-    }
-}
-
-
-
-/**
- * Icons
- */
-.icon {
-
-    > svg {
-        display: inline-block;
-        width: 40px;
-        height: 40px;
-        vertical-align: middle;
-
-        path {
-            fill: $grey-color;
-        }
-    }
-}
-
-div#main {
-   background-color: $background-color;
-   color: rgba($text-color, 0.87);
-   -webkit-transition: 300ms;
-   -moz-transition: 300ms;
-   -o-transition: 300ms;
-   transition: 300ms;
-
-   a {
-       color: $brand-color;
-
-       &:visited {
-           color: darken($brand-color, 8%);
-       }
-
-       &:hover {
-           color: $text-color;
-       }
-   }
-
-   blockquote {
-     color: $grey-color;
-   }
-   .post-list .post-meta {
-     color: $grey-color;
-   }
-   .post-meta {
-     color: $grey-color;
-     color: rgba($background-color, 0.7);
-   }
-
 }

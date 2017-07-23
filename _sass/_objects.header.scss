@@ -1,0 +1,22 @@
+///*------------------------------------*\
+//    #HEADER
+//\*------------------------------------*/
+
+.header-skew {
+    @include skew-edge($pos-btm: bottomleft, $skew-btm: 1.6deg, $background: $dark-color);
+    margin-bottom: $spacing-unit-factor-large;
+}
+.header-site-logo {
+  width: auto;
+  height: 40px;
+  margin: 20px;
+  opacity: .70;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.header-page-logo {
+  width: auto;
+  height: 40px;
+  margin: 20px 0;
+}

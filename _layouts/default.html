@@ -5,12 +5,15 @@
 
   <body>
 
-    {% include header.html %}
+    <input type="checkbox" id="mode" value="">
+    <label for="mode"></label>
 
     <div id="main" class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+
+      {% include header.html %}
+
+      {{ content }}
+    
     </div>
 
     {% include footer.html %}

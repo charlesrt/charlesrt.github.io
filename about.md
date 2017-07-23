@@ -1,15 +1,11 @@
 ---
-title: About
+title: Designer.
 permalink: "/about/"
 layout: page
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Charles Reynolds-Talbot is the Interaction Design Lead for a team of interaction designers across the Immigration portfolio in Digital, Data and Technology, delivering government services that are clearer, simpler and faster to use.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Before taking this role, he was a senior interaction designer at the Home Office and before that, he designed for the Department for Work and Pensions.
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+He’s passionate about designing and delivering products and services that matter, building a culture where design is valued and people are proud to talk about their work.

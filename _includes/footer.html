@@ -2,27 +2,9 @@
 
   <div class="wrapper">
 
-    <!--<h2 class="footer-heading">{{ site.title }}</h2>-->
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-3">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-
-          <li>
-            <a href="mailto:{{ site.email }}">EMAIL</a>
-          </li>
-        </ul>
+        {% include social-media-list.html %}
       </div>
 
       <div class="footer-col footer-col-1">
@@ -30,28 +12,9 @@
       </div>
 
       <div class="footer-col footer-col-2">
-        <img class="footer__profile__image" src="/assets/site-profile.jpg" />
       </div>
     </div>
 
   </div>
 
 </footer>
-
-<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
-<script>
-$(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-</script>

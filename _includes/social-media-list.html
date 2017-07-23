@@ -1,0 +1,7 @@
+<ul class="social-media-list">
+
+{% for social in site.social-media-list %}
+  <a href="{{ social | last }}"><span class="icon icon--{{ social | first }}">{% include {{ social | first | prepend: 'icon-' | append: '.svg' }} %}</span><span class="username">{{ social | last }}</span></a>
+{% endfor %}
+
+</ul>

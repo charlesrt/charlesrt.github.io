@@ -1,0 +1,39 @@
+///*------------------------------------*\
+//    #ICONS
+//\*------------------------------------*/
+
+.icon {
+
+  > svg {
+    display: inline-block;
+    width: $small-font-size;
+    height: $small-font-size;
+    vertical-align: middle;
+
+    path {
+      fill: $dark-color;
+    }
+  }
+
+  &.icon--twitter > svg path {
+    fill: #1DA1F2;
+  }
+  &.icon--github > svg path {
+    fill: #181717;
+  }
+  &.icon--medium > svg path {
+    fill: #00AB6B;
+  }
+  &.icon--linkedin > svg path {
+    fill: #0077B5;
+  }
+  &.icon--gmail > svg path {
+    fill: #D14836;
+  }
+  &.icon--rss > svg path {
+    fill: #FFA500;
+  }
+}
+.social-media-list .icon {
+  padding-right: $spacing-unit-factor-tiny;
+}

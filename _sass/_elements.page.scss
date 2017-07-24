@@ -223,3 +223,20 @@ select:focus,
 button:focus {
   outline: 3px solid $focus-color;
 }
+
+/**
+ * Forms
+ */
+input, textarea {
+  border: 2px solid $dark-color;
+  margin-bottom: $spacing-unit-factor-tiny;
+  padding: $spacing-unit-factor-tiny;
+  width: 100%;
+}
+button {
+  background-color: $dark-color;
+  border: none;
+  color: $background-color;
+  margin-bottom: $spacing-unit-factor-small;
+  padding: $spacing-unit-factor-tiny;
+}

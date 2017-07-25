@@ -1,0 +1,125 @@
+///*------------------------------------*\
+//    #FIX CSS
+//\*------------------------------------*/
+
+/**
+* 1. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
+*    navigating between pages that do/do not have enough content to produce
+*    scrollbars naturally.
+* 2. Ensure the page always fills at least the entire height of the viewport.
+* 3. Prevent certain mobile browsers from automatically zooming fonts.
+* 4. Fonts on OSX will look more consistent with other systems that do not
+*    render text using sub-pixel anti-aliasing.
+* 5. Remove tap highlight in iOS
+* 6. Enable font kerning in CSS.
+*/
+
+html {
+  overflow-y: scroll; /* [1] */
+  min-height: 100%; /* [2] */
+  -ms-text-size-adjust: 100%; /* [3] */
+  -webkit-text-size-adjust: 100%; /* [3] */
+  -webkit-font-smoothing: antialiased; /* [4] */
+  -moz-osx-font-smoothing: grayscale; /* [4] */
+  -webkit-tap-highlight-color: transparent; /* [5] */
+  text-rendering: optimizeLegibility; /* [6] */
+  -webkit-font-feature-settings: "kern" 1; /* [6] */
+  -moz-font-feature-settings: "kern" 1; /* [6] */
+  -o-font-feature-settings: "kern" 1; /* [6] */
+  font-feature-settings: "kern" 1; /* [6] */
+  font-kerning: normal; /* [6] */
+}
+body {
+  margin: 0;
+  line-height: 1;
+  font-family: sans-serif;
+}
+iframe {
+  border: 0;
+}
+main,
+li {
+  display: block;
+}
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+dl {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+dd {
+  margin-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: inherit;
+}
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+sup {
+  position: relative;
+  top: -.5em;
+  vertical-align: baseline;
+  font-size: 75%;
+  line-height: 0;
+}
+strong {
+  font-weight: bold;
+}
+figure {
+  margin: 0;
+}
+img {
+  border: 0;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
+}
+button {
+  border: 0;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-transform: inherit;
+  font: inherit;
+  -webkit-font-smoothing: inherit;
+  letter-spacing: inherit;
+  background: none;
+  cursor: pointer;
+  overflow: visible;
+}
+a:focus {
+  background-color: #ffbf47;
+  outline: 3px solid #ffbf47;
+}
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: 3px solid #ffbf47;
+}
+::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}

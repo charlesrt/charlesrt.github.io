@@ -2,58 +2,12 @@
 //    #PAGE ELEMENTS
 //\*------------------------------------*/
 
-/**
- * Reset some basic elements
- */
-body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
-    margin: 0;
-    padding: 0;
-}
-
-/**
-* High-, page-level styling.
-*
-* 1. Set the default `font-size` and `line-height` for the entire project,
-*    sourced from our default variables. The `font-size` is calculated to exist
-*    in ems, the `line-height` is calculated to exist unitlessly.
-* 2. Force scrollbars to always be visible to prevent awkward ‘jumps’ when
-*    navigating between pages that do/do not have enough content to produce
-*    scrollbars naturally.
-* 3. Ensure the page always fills at least the entire height of the viewport.
-* 4. Prevent certain mobile browsers from automatically zooming fonts.
-* 5. Fonts on OSX will look more consistent with other systems that do not
-*    render text using sub-pixel anti-aliasing.
-* 6. Enable font kerning in CSS.
-*/
-html {
-  font-size: ($base-font-size / 16px) * 1em; /* [1] */
-  line-height: $base-line-height / $base-font-size; /* [1] */
-  overflow-y: scroll; /* [2] */
-  min-height: 100%; /* [3] */
-  -webkit-text-size-adjust: 100%; /* [4] */
-  -ms-text-size-adjust: 100%; /* [4] */
-  -moz-osx-font-smoothing: grayscale; /* [5] */
-  -webkit-font-smoothing: antialiased; /* [5] */
-  text-rendering: optimizeLegibility; /* [6] */
-  -webkit-font-feature-settings: "kern" 1; /* [6] */
-  -moz-font-feature-settings: "kern" 1; /* [6] */
-  -o-font-feature-settings: "kern" 1; /* [6] */
-  font-feature-settings: "kern" 1; /* [6] */
-  font-kerning: normal; /* [6] */
-}
-
 body {
-  font-family: $base-font-family;
   color: $text-color;
   color: rgba($text-color, 0.87);
   background-color: $background-color;
   border-top: 2px solid $brand-color;
-
-  @include media-query($on-palm) {
-    font-size: ($small-font-size / 16px) * 1em;
-  }
+  font-family: $base-font-family;
 }
 
 /**
@@ -63,7 +17,13 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure, iframe,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit-factor-small;
+  font-size: $base-font-size;
+  line-height: $base-line-height / $base-font-size;
+  margin-bottom: $spacing-unit-factor-small;
+
+  @include media-query($on-palm) {
+    font-size: $small-font-size;
+  }
 }
 
 p, blockquote, iframe {
@@ -74,87 +34,66 @@ p, blockquote, iframe {
  * Images
  */
 img {
-    max-width: 100%;
-    vertical-align: middle;
-
-    @include media-query($on-palm) {
-      max-width: calc(100% + #{$spacing-unit});
-      margin-left: -$spacing-unit-factor-small;
-      margin-right: -$spacing-unit-factor-small;
-   }
-}
-
-/**
- * Figures
- */
-figure > img {
-    display: block;
-}
-
-figcaption {
-    font-size: $small-font-size;
+  @include media-query($on-palm) {
+    max-width: calc(100% + #{$spacing-unit});
+    margin-left: -$spacing-unit-factor-small;
+    margin-right: -$spacing-unit-factor-small;
+ }
 }
 
 /**
  * Lists
  */
 ul, ol {
-    margin-left: $spacing-unit;
-}
-
-li {
-    > ul,
-    > ol {
-         margin-bottom: 0;
-    }
+  margin-left: $spacing-unit;
 }
 
 /**
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
-    font-family: $header-font-family;
-    font-weight: $header-font-weight;
-    line-height: 1;
+  font-family: $header-font-family;
+  font-weight: $header-font-weight;
+  line-height: 1;
 }
 
 /**
  * Links
  */
 a {
-    color: $brand-color;
-    text-decoration: none;
+  color: $brand-color;
+  text-decoration: none;
 
-    &:visited {
-        color: darken($brand-color, 8%);
-    }
+  &:visited {
+    color: darken($brand-color, 8%);
+  }
 
-    &:hover {
-        color: $text-color;
-        text-decoration: underline;
-    }
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
 }
 
 /**
 * Inline paragraph links mainain their underline
 */
 p a {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /**
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit-factor-small;
-    font-size: $small-font-size;
-    letter-spacing: 0.5px;
+  color: $grey-color;
+  border-left: 4px solid $grey-color-light;
+  padding-left: $spacing-unit-factor-small;
+  font-size: $small-font-size;
+  letter-spacing: 0.5px;
 
-    > :last-child {
-        margin-bottom: 0;
-    }
+  > :last-child {
+      margin-bottom: 0;
+  }
 }
 
 /**
@@ -184,44 +123,25 @@ hr {
  */
 pre,
 code {
-    font-size: $small-font-size;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: $background-color;
+  font-size: $small-font-size;
+  border: 1px solid $grey-color-light;
+  border-radius: 3px;
+  background-color: $background-color;
 }
 
 code {
-    padding: 1px 5px;
+  padding: 1px 5px;
 }
 
 pre {
-    padding: 8px 12px;
-    overflow-x: auto;
+  padding: 8px 12px;
+  overflow-x: auto;
 
-    > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
-    }
-}
-
-/**
- * Focus
- */
-a {
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3);
-}
-
-a:focus {
-  background-color: $focus-color;
-  outline: 3px solid $focus-color;
-}
-
-input:focus,
-textarea:focus,
-select:focus,
-button:focus {
-  outline: 3px solid $focus-color;
+  > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 /**
@@ -235,7 +155,6 @@ input, textarea {
 }
 button {
   background-color: $dark-color;
-  border: none;
   color: $background-color;
   margin-bottom: $spacing-unit-factor-small;
   padding: $spacing-unit-factor-tiny;

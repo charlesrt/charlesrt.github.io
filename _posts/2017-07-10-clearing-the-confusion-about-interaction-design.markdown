@@ -1,5 +1,5 @@
 ---
-title: Clearing the confusion about interaction design
+title: Interaction design&#58; Clearing the confusion
 date: 2017-07-10 08:00:00 Z
 categories:
 - Design
@@ -29,11 +29,11 @@ Research is invaluable when building empathy with users and understanding their 
 
 De-risking assumptions and gaining confidence you're on track to deliver your outcomes are the returns you get when you invest in user centred design.
 
+## Knowing the right level of interaction design
+
 {% if page.image %}![A building call-system, with buttons mixed of different colours and shapes.](/assets{{ page.url }}{{ page.image}}){% endif %}
 
 > A building call system, with buttons mixed of different colours and shapes.
-
-## Knowing the right level of interaction design
 
 People tend to think of design in 1 of 2 ways: design is look and feel, or design is how it works.
 

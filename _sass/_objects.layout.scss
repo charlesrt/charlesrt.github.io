@@ -163,7 +163,6 @@
 }
 
 .footer-col-wrapper {
-  font-size: 15px;
   color: $grey-color;
   margin-left: -$spacing-unit-factor-small;
   @extend %clearfix;
@@ -173,6 +172,10 @@
   float: left;
   margin-bottom: $spacing-unit-factor-small;
   padding-left: $spacing-unit-factor-small;
+}
+
+.footer-col p {
+  font-size: $small-font-size;
 }
 
 .footer-col-1 {
@@ -289,4 +292,12 @@
         font-size: $base-font-size;
     }
   }
+}
+
+.image-caption {
+  text-align: center;
+  color: $grey-color;
+  font-size: $small-font-size;
+  margin-left: $spacing-unit-factor-large;
+  margin-right: $spacing-unit-factor-large;
 }

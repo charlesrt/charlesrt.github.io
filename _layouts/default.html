@@ -5,7 +5,13 @@
 
   <body>
 
-    <input type="checkbox" id="mode" value="">
+    <!-- <input type="radio" class="a11y" id="white-black" name="colour" value="">
+    <label class="a11y" for="white-black">White black</label>
+    <input type="radio" class="a11y" id="black-white" name="colour" value="">
+    <input type="radio" class="a11y" id="blue-yellow" name="colour" value="">
+    <input type="radio" class="a11y" id="yellow-blue" name="colour" value=""> -->
+
+    <input type="checkbox" id="mode" value="" checked>
     <label for="mode"></label>
 
     <div id="main" class="page-content">
@@ -13,7 +19,7 @@
       {% include header.html %}
 
       {{ content }}
-    
+
     </div>
 
     {% include footer.html %}

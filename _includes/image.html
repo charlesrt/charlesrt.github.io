@@ -1,0 +1,7 @@
+<!-- _includes/image.html -->
+<img src="{{ site.url }}/assets{{ page.url }}{{ include.img }}" alt="{{ include.title }}"/>
+{% if include.url %}
+<p class="image-caption"><a href="{{ include.url }}" title="{{ include.title }}" target="_blank">{{ include.caption }}</a></p>
+{% elsif include.caption %}
+<p class="image-caption">{{ include.caption }}</p>
+{% endif %}

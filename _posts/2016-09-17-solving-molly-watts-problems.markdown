@@ -75,3 +75,5 @@ If nothing else comes of this I’ll at least be happy with Molly’s feedback..
 Molly’s life experience has been affected by how hard people have worked to make both digital and non digital services inclusive for her. It’s affected her education, work and mental health.
 
 It’s not enough anymore to employ people who can do a job, who code, who *do* design. We need to start employing people who are passionate about solving real problems, people who are empathetic, people who care.
+
+*I have published a follow up to this post called [Apple [and others] need a dark mode for people like Molly Watt]({{site.url}}/2017/08/apple-need-a-dark-mode-for-people-like-molly-watt/).*

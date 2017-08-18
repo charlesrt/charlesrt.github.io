@@ -2,8 +2,7 @@
 title: Solving Molly Watt’s problems
 date: 2016-09-17 21:00:00 Z
 categories:
-- Usher
-- Syndrome
+- Usher Syndrome
 - Design
 - Accessibility
 - Inclusion

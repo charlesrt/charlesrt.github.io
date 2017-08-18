@@ -3,10 +3,8 @@ title: Interaction design&#58; Clearing the confusion
 date: 2017-07-10 08:00:00 Z
 categories:
 - Design
-- Service Design
-- User Experience
-- Government
-- Digital
+- Interaction Design
+- User Centred Design
 layout: post
 image: knowing-the-right-level.jpg
 excerpt: I've noticed confusion about what interaction design is, what interaction designers do and when’s the right time to get them involved.

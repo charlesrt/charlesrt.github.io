@@ -36,6 +36,7 @@ p, blockquote, iframe {
 img {
   box-shadow: 0 45.4px 70px -20.4px rgba(0, 0, 0, 0.3);
   @include media-query($on-palm) {
+    box-shadow: none;
     max-width: calc(100% + #{$spacing-unit});
     margin-left: -$spacing-unit-factor-small;
     margin-right: -$spacing-unit-factor-small;

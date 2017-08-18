@@ -29,12 +29,12 @@
     height: 100%;
     position: absolute;
     background: inherit;
-    border-bottom: 5px solid $border;
+    border-bottom: 2px solid $border;
     z-index: -1;
-    -webkit-transition: ease-in-out background 1ms, ease-in-out -webkit-transform 300ms;
-    -moz-transition: ease-in-out background 1ms, ease-in-out -moz-transform 300ms;
-    -o-transition: ease-in-out background 1ms, ease-in-out -o-transform 300ms;
-    transition: ease-in-out background 1ms, ease-in-out transform 300ms;
+    // -webkit-transition: ease-in-out background 1ms, ease-in-out -webkit-transform 300ms;
+    // -moz-transition: ease-in-out background 1ms, ease-in-out -moz-transform 300ms;
+    // -o-transition: ease-in-out background 1ms, ease-in-out -o-transform 300ms;
+    // transition: ease-in-out background 1ms, ease-in-out transform 300ms;
   }
 
   @if $pos-btm{

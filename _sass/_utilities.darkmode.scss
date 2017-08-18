@@ -81,7 +81,7 @@ input#mode[type=checkbox]:checked + label:after {
 }
 input#mode[type=checkbox]:checked ~ div#main {
    background-color: mix($brand-color, $text-color, 48%);
-   color: rgba($background-color, 0.87);
+   color: rgba($white, 0.87);
   //  -webkit-transition: 300ms;
   //  -moz-transition: 300ms;
   //  -o-transition: 300ms;
@@ -101,16 +101,16 @@ input#mode[type=checkbox]:checked ~ div#main {
      }
    }
    blockquote {
-     color: rgba($background-color, 0.54);
+     color: rgba($white, 0.7);
    }
    .post-meta {
-     color: rgba($background-color, 0.54);
+     color: rgba($white, 0.7);
    }
    .image-caption {
-     color: rgba($background-color, 0.54);
+     color: rgba($white, 0.7);
    }
    .header-skew {
-     @include skew-edge($pos-btm: bottomleft, $skew-btm: 1.6deg, $background: $dark-color, $border: rgba($background-color, 0.87));
+     @include skew-edge($pos-btm: bottomleft, $skew-btm: 1.6deg, $background: $dark-color, $border: rgba($white, 0.87));
    }
 }
 input#white-black[type=radio]:checked ~ * {

@@ -20,13 +20,16 @@ $spacing-unit-factor-small:  round($spacing-unit * 0.5)  !default;
 $spacing-unit-factor-large:  round($spacing-unit * 2)    !default;
 $spacing-unit-factor-huge:   round($spacing-unit * 4)    !default;
 
+$white:           #ffffff;
+$black:           #000000;
+
 $background-color: #fdfdfd;
-$text-color:       #000000;
+$text-color:       $black;
 
 $brand-color:      #4C6A92;
 
 $dark-color:       mix($brand-color, $text-color, 32%);
-$light-color:       mix($brand-color, $background-color, 16%);
+$light-color:       mix($brand-color, $white, 16%);
 
 $grey-color:       #595959;
 $grey-color-light: lighten($grey-color, 32%);

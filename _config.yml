@@ -20,7 +20,7 @@ social-media-list:
   linkedin: https://uk.linkedin.com/in/charles-reynolds-talbot-7741b6b7
   rss: http://charlesrt.co.uk/feed.xml
 markdown: kramdown
-permalink: "/:year/:month/:title/"
+permalink: "/blog/:title/"
 sass:
   sass_dir: _sass
   style: compressed

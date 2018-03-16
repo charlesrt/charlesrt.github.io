@@ -12,7 +12,8 @@ excerpt: Jake Knapp used to work at Google Ventures. During that time Jake devel
 
 Jake Knapp used to work at [Google Ventures](https://www.gv.com). During that time Jake developed a process to help teams test their ideas and get market feedback early, rather than spend years designing and building a thing before getting any data on whether it works. The process that came to be, was a Design Sprint.
 
-{% include image.html img="charles-chris-jake.jpg" title="(Left to right) Charles Reynolds-Talbot, Chris Taylor and Jake Knapp" caption="(Left to right) Charles Reynolds-Talbot, Chris Taylor and Jake Knapp" %}
+![(Left to right) Charles Reynolds-Talbot, Chris Taylor and Jake Knapp](/assets/2017/09/design-sprint-in-a-day/charles-chris-jake.jpg)
+<p class="image-caption">(Left to right) Charles Reynolds-Talbot, Chris Taylor and Jake Knapp</p>
 
 Since that time Jake has run over 150 Design Sprints with teams in a variety of companies, from Slack to Blue Bottle Coffee, and published a book about the process called [Sprint](https://www.thesprintbook.com).
 
@@ -22,7 +23,9 @@ By now, you've probably guessed that this post isn't a guide on how to run a Des
 
 This post is instead a review of Jake's workshop and a recommendation that---if you've read this far---you should attend one, given the opportunity.
 
-{% include image.html img="introductions.jpg" title="Welcoming the teams" caption="Welcoming the teams" %}
+![Welcoming the teams" ](/assets/2017/09/design-sprint-in-a-day/introductions.jpg)
+<p class="image-caption">Welcoming the teams</p>
+
 
 ## Life by Keynote
 
@@ -34,7 +37,8 @@ Far from Death by Powerpoint, I was surprised at how engaged I was throughout. I
 
 Even the icebreaker was genius. I won't spoil it, you'll just have to attend one the workshops.
 
-{% include image.html img="life-by-keynote.jpg" title="Life by Keynote" caption="Life by Keynote" %}
+![Life by Keynote" ](/assets/2017/09/design-sprint-in-a-day/life-by-keynote.jpg)
+<p class="image-caption">Life by Keynote</p>
 
 ## Validating interpretations
 
@@ -44,7 +48,8 @@ Tuesdays sketching exercises were another main feature of the workshop, probably
 
 Jake did unpack some more detail behind the Lightning Demos, which was welcome to see a focus on using agnostic design patterns for inspiration.
 
-{% include image.html img="art-museum.jpg" title="Our art was literally on display at the Tate Modern" caption="Our art was literally on display at the Tate Modern" %}
+![Our art was literally on display at the Tate Modern](/assets/2017/09/design-sprint-in-a-day/art-museum.jpg)
+<p class="image-caption">Our art was literally on display at the Tate Modern</p>
 
 Prototype and test (Thursday and Friday) were covered at the end by way of a whole room discussion, which was useful to hear other peoples questions and pain points from the process.
 
@@ -64,4 +69,5 @@ Ideas and data about a product or service might be the obvious outcome you get f
 
 Design Sprints help people save time.
 
-{% include image.html img="sprint-signed.jpg" title="🙌" caption="🙌" %}
+![🙌](/assets/2017/09/design-sprint-in-a-day/sprint-signed.jpg)
+<p class="image-caption">🙌</p>

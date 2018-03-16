@@ -17,7 +17,8 @@ The message is to not overthink your writing. The majority of the time, the thin
 
 After [sharing this to Twitter](https://twitter.com/charles_rt/status/956065000166174721), I realised you run another risk---you never publish at all.
 
-{% include image.html img="drafts-screenshot.jpg" title="Too many drafts. How familiar is this view?" caption="Too many drafts. How familiar is this view?" url="https://twitter.com/htmlandbacon/status/956081669496295424" %}
+![Too many drafts. How familiar is this view?](/assets/2018/01/drafts-zero-challenge/drafts-screenshot.jpg)
+<p class="image-caption"><a href="https://twitter.com/htmlandbacon/status/956081669496295424" title="Too many drafts. How familiar is this view?" target="\_blank">Too many drafts. How familiar is this view?</a></p>
 
 You might have heard of [Zero Draft](https://www.google.co.uk/search?q=zero+draft); your first unstructured attempt to write down your thoughts as they flow from your mind. A lot of mine---and maybe your---drafts never become more than that.
 
@@ -25,7 +26,7 @@ You might have heard of [Zero Draft](https://www.google.co.uk/search?q=zero+draf
 
 Every day---excluding weekends---I am going to spend 15&nbsp;minutes (no more) on finishing and publishing a draft, starting with the oldest.
 
-{% include image.html img="drafts-zero.png" title="Drafts Zero" %}
+![Drafts Zero](/assets/2018/01/drafts-zero-challenge/drafts-zero.png)
 
 It doesn't need to be perfect, it needs to be done!
 

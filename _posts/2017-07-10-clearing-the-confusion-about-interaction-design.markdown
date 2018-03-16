@@ -29,7 +29,7 @@ De-risking assumptions and gaining confidence you're on track to deliver your ou
 
 ## Knowing the right level of interaction design
 
-{% if page.image %}![A building call-system, with buttons mixed of different colours and shapes.](/assets{{ page.url }}{{ page.image}}){% endif %}
+![A building call system, with buttons mixed of different colours and shapes.](/assets/2017/07/clearing-the-confusion-about-interaction-design/knowing-the-right-level.jpg)
 
 > A building call system, with buttons mixed of different colours and shapes.
 

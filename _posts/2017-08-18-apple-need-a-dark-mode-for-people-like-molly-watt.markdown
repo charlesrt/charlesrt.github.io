@@ -15,7 +15,8 @@ excerpt: Everyone should be able to customise their settings for a consistent ac
 
 *This is a follow up post to [Solving Molly Watt's Problems]({{site.url}}/2016/09/solving-molly-watts-problems/). If you haven't read that post yet, go read it now and then come back.* 🙂 *It provides the background to this post on why we need dark mode to be an inclusive design consideration.*
 
-{% include image.html img="apple-mac-night-glare.jpg" title="Photo by Jay Wennington on Unsplash" caption="Photo by Jay Wennington on Unsplash" url="https://unsplash.com/search/photos/dark-apple?photo=loAgTdeDcIU" %}
+![Photo by Jay Wennington on Unsplash](/assets/2017/08/apple-need-a-dark-mode-for-people-like-molly-watt/apple-mac-night-glare.jpg)
+<p class="image-caption"><a href="https://unsplash.com/search/photos/dark-apple?photo=loAgTdeDcIU" title="Photo by Jay Wennington on Unsplash" target="\_blank">Photo by Jay Wennington on Unsplash</a></p>
 
 In brief, Molly has [Usher Syndrome](http://www.molly-watt-trust.org), which is a condition that has left her deaf with 5--degree vision in one eye.
 
@@ -31,7 +32,8 @@ Molly is still a visual person. One of the problems Molly has when interacting w
 
 I started with the assumption that a style switcher would solve this problem---by designing a toggle that would let users switch between a light and dark mode when needed.
 
-{% include image.html img="dark-mode.gif" title="GOV.UK prototype to test an idea." caption="GOV.UK prototype to test an idea." %}
+![GOV.UK prototype to test an idea.](/assets/2017/08/apple-need-a-dark-mode-for-people-like-molly-watt/dark-mode.gif)
+<p class="image-caption">GOV.UK prototype to test an idea.</p>
 
 Reading the content in dark mode would be bearable for Molly, and might benefit others too---enhancing the experience for a user with a headache, or someone browsing in a poorly lit room. Designing for the few, makes things better for the many.
 
@@ -43,7 +45,8 @@ Designer [Craig Abbott](https://twitter.com/abbott567?lang=en) recently implemen
 
 There used to be a lot of websites during the 00s that had these accessibility toolbars, but it's something that seems to have *fallen out of fashion*. Surely, if we build one of these for [GOV.UK](http://gov.uk), that will solve the problem.
 
-{% include image.html img="craig-abbott.gif" title="The toolbar on Craig's website is great, until you leave." caption="The toolbar on Craig's website is great, until you leave." %}
+![The toolbar on Craig's website is great, until you leave.](/assets/2017/08/apple-need-a-dark-mode-for-people-like-molly-watt/craig-abbott.gif)
+<p class="image-caption">The toolbar on Craig's website is great, until you leave.</p>
 
 Well---while the outstanding efforts to make these websites more accessible should be celebrated, neither *really* solves the problem. These solutions exist in a vacuum. As soon as the user navigates to a different website that doesn't have one of these toolbars, the customisation is lost and the experience is broken. Even if the next website did have one of these toolbars---so the option was available to make it more accessible---it wouldn't know the settings from the previous website, so the user would always be starting from scratch. This isn't inclusive. It's a hack, and maybe that's OK for now---but. We need something better.
 
@@ -61,7 +64,9 @@ Molly is 22 and like most people her age, uses her iPhone and iPad to access the
 
 Apple provide in-built accessibility features to help people with access needs use their technology which is brilliant---but. One thing I don't think they do very well, is shout about it enough. I would love to see Tim Cook talk passionately about how Apple are making things easier for people with access needs. Unfortunately, this year I think we'll instead see overly-excited cheers at new emojis.
 
-{% include image.html img="emoji-update-new.gif" title="Some of the new emoji coming to iOS, macOS and watchOS later this year." caption="Some of the new emoji coming to iOS, macOS and watchOS later this year." %}
+![Some of the new emoji coming to iOS, macOS and watchOS later this year.](/assets/2017/08/apple-need-a-dark-mode-for-people-like-molly-watt/emoji-update-new.gif)
+<p class="image-caption">Some of the new emoji coming to iOS, macOS and watchOS later this year.</p>
+
 
 Molly has talked and written about [how Apple products have made her feel less excluded from society](http://www.mollywatt.com/blog/entry/my-apple-watch-after-5-days), which is great. But, one thing Apple haven't yet implemented is the option to switch to a **true Dark Mode**, that would make changes across the Operating System (OS), native Apple apps, third-party developer apps and web browsing.
 

@@ -11,7 +11,7 @@ collections:
 email:
 description: Interaction designer based in Leeds, currently helping UK government
   design digital services that matter.
-baseurl: 
+baseurl:
 url: http://charlesrt.co.uk
 social-media-list:
   twitter: https://twitter.com/charles_rt
@@ -24,3 +24,4 @@ permalink: "/:year/:month/:title/"
 sass:
   sass_dir: _sass
   style: compressed
+include: ["_redirects"]

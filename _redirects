@@ -1,0 +1,12 @@
+# Redirect domain aliases to primary domain
+https://www.charlesrt.co.uk/* https://charlesrt.uk/:splat 301!
+http://www.charlesrt.co.uk/* https://charlesrt.uk/:splat 301!
+https://charlesrt.co.uk/* https://charlesrt.uk/:splat 301!
+http://charlesrt.co.uk/* https://charlesrt.uk/:splat 301!
+https://charlesrt.netlify.com/* https://charlesrt.uk/:splat 301!
+http://charlesrt.netlify.com/* https://charlesrt.uk/:splat 301!
+
+# Redirect :year/:month origins to simple paths
+/2018/:month/:slug/ /blog/:slug/ 301
+/2017/:month/:slug/ /blog/:slug/ 301
+/2016/:month/:slug/ /blog/:slug/ 301

@@ -1,5 +1,6 @@
 # Redirect default Netlify subdomain to 2017 subdomain
-http://2017-charlesrt.netlify.com/* http://2017.charlesrt.uk/:splat 301!
+https://2017-charlesrt.netlify.com/* https://2017.charlesrt.uk/:splat 301!
+http://2017-charlesrt.netlify.com/* https://2017.charlesrt.uk/:splat 301!
 
 # Redirect domain aliases to primary domain
 https://www.charlesrt.co.uk/* https://charlesrt.uk/:splat 301!
